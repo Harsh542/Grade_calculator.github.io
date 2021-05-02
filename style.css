@@ -1,0 +1,88 @@
+body{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+ 
+}
+
+
+div{
+    /* float: left; */
+    display: inline-block;
+}
+    
+input{
+    display: block;
+    margin: 5px;
+    width: 200px;
+    font-size: 15px;
+    height: 32px;
+    font-weight: bold;
+    color:orangered ;
+    background-color: darkgrey;
+    outline: none;
+    border-style:none none solid none;
+    border-color: white;
+}
+
+
+::placeholder{
+    color:yellow;
+    padding-left: 10px;
+}
+
+input:focus{
+    border-color: black;
+    caret-color: black;
+}
+/* input:focus::placeholder{
+    border-color:orangered;
+} */
+
+#main-heading{
+    padding: 30px;
+    margin-top: 10px;
+    color: darkred;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sub-heading{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.marks{
+    background-color: darkgrey;
+    padding: 30px 50px;
+    border-radius: 30px;
+}
+
+.cover{
+    margin: 100px 300px;
+}
+
+button{
+    font-size: 15px;
+    color: white;
+    border: 1px solid darkgrey;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 65px;
+}
+
+button:hover{
+    background-color: white;
+    color: orange;
+}
+
+.p-style{
+font-size: 20px;
+color:orangered;
+width: 160px;
+margin-left: 356px;
+margin-top: -40px;
+}
